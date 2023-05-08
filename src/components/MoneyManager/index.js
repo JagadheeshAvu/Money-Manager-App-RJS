@@ -105,9 +105,8 @@ class MoneyManager extends Component {
         expensesAmount += eachTransaction.amount
       }
       balance = incomeAmount - expensesAmount
-
-      return balance
     })
+    return balance
   }
 
   render() {
